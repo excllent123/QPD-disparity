@@ -20,6 +20,7 @@ We introduce **QPD2K**, the first real-world dataset containing:
 
 **Overview of QPD2K Generation Pipeline**
 ![QPD2K](https://github.com/excllent123/QPD-disparity/blob/main/figs/QPD2K_pipeline.jpg)
+
 More details about the dataset can be found in the paper.
 
 ## 🔬 Method Overview
@@ -28,11 +29,11 @@ We propose two deep learning architectures:
 
 - **DPNet Architecture Overview**
 The DPNet comprises two novel modules: an illumination-invariant module and a coarse-to-fine module.
+![DPNet](https://github.com/excllent123/QPD-disparity/blob/main/figs/Figure_network_DPNet.jpg)
 
 - **QuadNet Architecture Overview**
 QuadNet integrates two-directional information via an edge-aware fusion module for QPD data. A Census-based refinement further refines the fused disparity
-
-
+![QuadNet](https://github.com/excllent123/QPD-disparity/blob/main/figs/Figure_network_Quad.jpg)
 
 ## 🧠 Code & Models
 
